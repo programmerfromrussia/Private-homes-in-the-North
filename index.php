@@ -7,18 +7,20 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <html data-theme="winter"></html>
+    <style>
+    .overlay-white {
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
+</style>
 
 </head>
 <body>
 <?php include("header.php");?>
 
-<div class="overlay-white w-100 h-96 slider-banner1 position-relative bg-cover bg-center bg-no-repeat" style="background-image: url('images/home.jpg');">
-    <div class="overlay" style="background-color: rgba(255, 255, 255, 0.6);"></div>
-    <div class="container h-96 flex items-center">
-        <div class="lg:w-12/12 text-black">
-            <h1 class="ml-20 text-4xl text-success">Выберите себе<br>нужное жильё<br></h1>
+        <div class="mt-20 lg:w-12/12 text-black">
+            <h1 class="ml-40 text-4xl text-success">Выберите себе<br>нужное жильё<br></h1>
             <form method="post" action="propertygrid.php">
-                <div class="ml-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="ml-20 mr-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 pt-10 px-20">
                     <div class="form-group">
                         <select class="form-select" name="type">
                             <option value="">Выбрать вид</option>
@@ -46,6 +48,8 @@
             </form>
         </div>
     </div>
+
+
 <?php include("footer.php");?>
 </body>
 </html>
