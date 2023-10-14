@@ -48,7 +48,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Войти</a>
+    <a class="btn" href="login.php">Войти</a>
   </div>
 </div>
 
