@@ -7,12 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <html data-theme="winter"></html>
-    <style>
-    .overlay-white {
-        background-color: rgba(255, 255, 255, 0.8); 
-    }
-</style>
-
 </head>
 <body>
 <?php include("header.php");?>
