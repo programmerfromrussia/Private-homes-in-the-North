@@ -12,7 +12,7 @@
 <?php include("header.php");?>
 
         <div class="mt-20 lg:w-12/12 text-black">
-            <h1 class="ml-40 text-4xl text-success">Выберите себе<br>нужное жильё<br></h1>
+        <h1 class="ml-40 text-4xl text-success d-flex justify-center">Выберите себе нужное жильё</h1>
             <form method="post" action="propertygrid.php">
                 <div class="ml-20 mr-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 pt-10 px-20">
                     <div class="form-group">
